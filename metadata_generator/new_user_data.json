@@ -1,0 +1,13 @@
+{
+    "kreyes": {
+        "user_name": "kreyes",
+        "password": "12345",
+        "user_id": "1071141011211011154950515253",
+        "is_student": true,
+        "nationality": "Filipino",
+        "language": "Tagalog",
+        "needs_sponsorship": false,
+        "email": "kreyes@gmail",
+        "desired_industry": "SWE"
+    }
+}
