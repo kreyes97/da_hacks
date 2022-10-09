@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh ;
+    background: #292929 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.signup-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    max-width: 500px;
+    background: #fff;
+
+}
+
+.left-box {
+    padding: 50px;
+    background: #6b00d5 ;
+    flex-basis: 50%;
+    flex-grow: 1;
+    color: #fff;
+}
+
+/* .right-box {
+    padding: 50px;
+    flex-basis: 50%;
+    flex-grow: 1;
+} */
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 12px;
+    background: transparent;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+input[type=checkbox] {
+    margin-top: 30px;
+}
+
+.left-box label {
+    font-size: 14px;
+}
+
+.left-box button {
+    width: 90%;
+    background: #fff;
+    padding:10px;
+    margin-left: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+.left-box button:hover {
+    font-weight: 500;
+    background: #000;
+    color: #fff;
+}

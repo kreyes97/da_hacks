@@ -1,0 +1,171 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #292929;
+}
+
+.link1 {
+    color: #292929;
+}
+.left {
+
+    margin-top: 100px;
+    border: 2px solid white;
+    width: 300px;
+    height: 500px;
+    position: relative;
+
+}
+.linkler {
+    color: white;
+    border: 2px solid aqua;
+    margin-top: 7px;
+}
+
+.whitepage {
+    border: 2px solid greenyellow;
+    background-color: white;
+    height: 150px;
+    width: 245px
+}
+
+.whitepage p {
+    color: white;
+    text-align: center;
+}
+
+.linkler ul li {
+        text-decoration: none;
+        color: white;
+        border: 2px solid sandybrown;
+        max-width: 100%;
+        list-style: none;
+        justify-content: space-between;
+        padding: 5px;
+        text-align: center;
+}
+
+
+.photo {
+    border: 2px solid blueviolet;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.photo p {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.userinfo {
+    border: 2px solid red;
+    width: 250px;
+    height: 300px;
+    margin-left: 22px;
+    margin-top: 25px;
+    
+}
+
+.button1 {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.button1:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.button1:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.button1 a {
+	color: #fff;
+}
+
+
+
+.middle {
+
+    border: 2px solid yellow;
+    margin-top: 50px;
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: white;
+}
+
+.middle p {
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.bar {
+    border: 2px solid yellow;
+    width: 750px;
+    height: 30px;
+    background-color: white;
+    margin-left: 370px;
+    margin-top: 100px;
+    position: absolute;
+}
+.bar p {
+    background-color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 2px;
+}
+
+.searchbar {
+    border: 2px solid yellow;
+    width: 200px;
+    height: 15px;
+    background-color: white;
+    margin-left: 1220px;
+    padding-top: 10px;
+    position: relative;
+   
+}
+
+.searchbar p {
+    text-align: left;    
+    font-size: 15px;
+    background-color: white;
+    padding-bottom: 6px;
+    
+}
+
+.rightlinks {
+    border: 2px solid yellow;
+    width: 100px;
+    height: 100px;
+    margin-left: 1300px;
+    color: white;
+    
+    
+}
